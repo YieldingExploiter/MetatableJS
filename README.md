@@ -21,8 +21,8 @@ Support for any metamethods not listed above can be added via a PR, however I li
 ### Supported Platforms
 
 - [x] NodeJS
-- [x] Modern Browsers (ES6 | Firefox, Chrome, Safari, Edge, Opera)
-- [ ] Legacy Browsers (<=ES5 | IE11, Old Firefox, Old Chrome, Old Safari, Old Opera)
+- [x] Modern Browsers (&gt;=ES6 | Firefox, Chrome, Safari, Edge, Opera)
+- [ ] Legacy Browsers (&lt;ES6 | IE11, Old Firefox, Old Chrome, Old Safari, Old Opera)
 
 ## Usage
 
