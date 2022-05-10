@@ -2,7 +2,7 @@
 node_modules
 
 # Distribution Files for test proj
-dist
+dist/*
 
 # Parcel Cache
 .parcel-cache

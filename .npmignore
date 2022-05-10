@@ -1,6 +1,0 @@
-src
-node_modules
-.parcel-cache
-.github
-test.js
-renovate.json
