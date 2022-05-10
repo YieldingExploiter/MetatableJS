@@ -10,10 +10,13 @@ Ever heard of lua metatables?
 
 ### Supported Metamethods
 
-- `__index`
-- `__newindex`
-- `\_\_call
-- `__tostring`
+- [x] `__index`
+- [x] `__newindex`
+- [x] `__call`
+- [x] `__tostring`
+- [ ] `__len`
+
+Support for any metamethods not listed above can be added via a PR, however I likely won't go out of my way to add them.
 
 ### Supported Platforms
 
