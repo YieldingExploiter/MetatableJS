@@ -8,6 +8,7 @@
   "main": "dist/main.js",
   "module": "dist/module.js",
   "types": "dist/types.d.ts",
+  "source": "src/index.ts",
   "devDependencies": {
     "@norathefurry/eslint-config": "1.1.2",
     "@parcel/core": "^2.5.0",
@@ -28,15 +29,11 @@
   "private": false,
   "targets": {
     "main": {
-      "includeNodeModules": [],
-      "source": "src/index.ts",
-      "engines": {
-        "node": ">=16.0.0"
-      }
+      "includeNodeModules": []
     },
     "browser": {
       "includeNodeModules": [],
-      "source": "src/browser.js"
+      "source": "src/browser.ts"
     }
   }
 }
