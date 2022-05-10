@@ -44,7 +44,7 @@ const MetaTabledTable = setmetatable(someTable, {
     throw new Error('Cannot index this meta┬─┬d ┬─┬');
   },
   __call: (_, a) => a.split('').reverse().join(''),
-  __tostring: () => '[object MetaTabledTable]';
+  __tostring: () => '[object MetaTabledTable]',
 });
 
 //
