@@ -22,7 +22,8 @@ Ever heard of lua metatables?
 ### Supported Platforms
 
 - [x] NodeJS
-- [x] Browser (ES6)
+- [x] Modern Browsers (ES6 | Firefox, Chrome, Safari, Edge, Opera)
+- [ ] Legacy Browsers (<=ES5 | IE11, Old Firefox, Old Chrome, Old Safari, Old Opera)
 
 ## Usage
 
