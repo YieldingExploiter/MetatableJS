@@ -1,0 +1,8 @@
+# Node Modules
+node_modules
+
+# Distribution Files for test proj
+dist
+
+# Parcel Cache
+.parcel-cache
