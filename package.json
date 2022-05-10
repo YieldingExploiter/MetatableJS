@@ -4,9 +4,9 @@
   "description": "A library for lua-alike metatables",
   "license": "MIT",
   "author": "YieldingCoder",
-  "version": "1.0.0",
-  "source": "src/index.ts",
+  "version": "1.0.1",
   "main": "dist/main.js",
+  "module": "dist/module.js",
   "types": "dist/types.d.ts",
   "devDependencies": {
     "@norathefurry/eslint-config": "1.1.2",
@@ -28,7 +28,15 @@
   "private": false,
   "targets": {
     "main": {
-      "includeNodeModules": []
+      "includeNodeModules": [],
+      "source": "src/index.ts",
+      "engines": {
+        "node": ">=16.0.0"
+      }
+    },
+    "browser": {
+      "includeNodeModules": [],
+      "source": "src/browser.js"
     }
   }
 }
