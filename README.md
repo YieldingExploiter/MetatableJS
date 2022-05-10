@@ -28,6 +28,8 @@ Support for any metamethods not listed above can be added via a PR, however I li
 
 Good examples can be found in the JSDocs, and some decent ones in the [tests](https://github.com/YieldingExploiter/MetatableJS/blob/main/test.js) file. However, for your convenience, here's a simple example:
 
+</span>
+
 ```js
 const { setmetatable, getmetatable } = require('metatablejs'); // installed via `pnpm i metatablejs`
 const SomeTable = {
@@ -61,6 +63,8 @@ console.log(MetaTabledTable.someProp); // => 'someOtherValue'
 console.log(MetaTabledTable.someOtherProp); // => 'someOtherValue'
 MetaTabledTable.someOtherProp = 'someValue'; // Error: Cannot index this meta┬─┬d ┬─┬
 ```
+
+<span align="center">
 
 ## Notice
 
