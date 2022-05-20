@@ -238,7 +238,7 @@ packages:
       '@parcel/logger': 2.5.0
       '@parcel/package-manager': 2.5.0_@parcel+core@2.5.0
       '@parcel/plugin': 2.5.0_@parcel+core@2.5.0
-      '@parcel/source-map': 2.0.2
+      '@parcel/source-map': 2.0.3
       '@parcel/types': 2.5.0_@parcel+core@2.5.0
       '@parcel/utils': 2.5.0
       '@parcel/workers': 2.5.0_@parcel+core@2.5.0
@@ -434,7 +434,7 @@ packages:
       '@parcel/css': 1.8.3
       '@parcel/diagnostic': 2.5.0
       '@parcel/plugin': 2.5.0_@parcel+core@2.5.0
-      '@parcel/source-map': 2.0.2
+      '@parcel/source-map': 2.0.3
       '@parcel/utils': 2.5.0
       browserslist: 4.20.3
       nullthrows: 1.1.1
@@ -493,7 +493,7 @@ packages:
     dependencies:
       '@parcel/diagnostic': 2.5.0
       '@parcel/plugin': 2.5.0_@parcel+core@2.5.0
-      '@parcel/source-map': 2.0.2
+      '@parcel/source-map': 2.0.3
       '@parcel/utils': 2.5.0
       nullthrows: 1.1.1
       terser: 5.13.1
@@ -522,7 +522,7 @@ packages:
     engines: {node: '>= 12.0.0', parcel: ^2.5.0}
     dependencies:
       '@parcel/plugin': 2.5.0_@parcel+core@2.5.0
-      '@parcel/source-map': 2.0.2
+      '@parcel/source-map': 2.0.3
       '@parcel/utils': 2.5.0
       nullthrows: 1.1.1
     transitivePeerDependencies:
@@ -549,7 +549,7 @@ packages:
       '@parcel/diagnostic': 2.5.0
       '@parcel/hash': 2.5.0
       '@parcel/plugin': 2.5.0_@parcel+core@2.5.0
-      '@parcel/source-map': 2.0.2
+      '@parcel/source-map': 2.0.3
       '@parcel/utils': 2.5.0
       globals: 13.15.0
       nullthrows: 1.1.1
@@ -672,8 +672,8 @@ packages:
       - '@parcel/core'
     dev: true
 
-  /@parcel/source-map/2.0.2:
-    resolution: {integrity: sha512-NnUrPYLpYB6qyx2v6bcRPn/gVigmGG6M6xL8wIg/i0dP1GLkuY1nf+Hqdf63FzPTqqT7K3k6eE5yHPQVMO5jcA==}
+  /@parcel/source-map/2.0.3:
+    resolution: {integrity: sha512-Efpb1VyoF/U/eRWv+K/630fKX2FmszZogpeJfy1zXUYXTR+6NxT3IW+iyPvQGcS1sUSgZ8oqzz7o85OFore0MA==}
     engines: {node: ^12.18.3 || >=14}
     dependencies:
       detect-libc: 1.0.3
@@ -685,7 +685,7 @@ packages:
     dependencies:
       '@parcel/diagnostic': 2.5.0
       '@parcel/plugin': 2.5.0_@parcel+core@2.5.0
-      '@parcel/source-map': 2.0.2
+      '@parcel/source-map': 2.0.3
       '@parcel/utils': 2.5.0
       browserslist: 4.20.3
       json5: 2.2.1
@@ -702,7 +702,7 @@ packages:
       '@parcel/css': 1.8.3
       '@parcel/diagnostic': 2.5.0
       '@parcel/plugin': 2.5.0_@parcel+core@2.5.0
-      '@parcel/source-map': 2.0.2
+      '@parcel/source-map': 2.0.3
       '@parcel/utils': 2.5.0
       browserslist: 4.20.3
       nullthrows: 1.1.1
@@ -747,7 +747,7 @@ packages:
       '@parcel/core': 2.5.0
       '@parcel/diagnostic': 2.5.0
       '@parcel/plugin': 2.5.0_@parcel+core@2.5.0
-      '@parcel/source-map': 2.0.2
+      '@parcel/source-map': 2.0.3
       '@parcel/utils': 2.5.0
       '@parcel/workers': 2.5.0_@parcel+core@2.5.0
       '@swc/helpers': 0.3.13
@@ -843,7 +843,7 @@ packages:
     dependencies:
       '@parcel/diagnostic': 2.5.0
       '@parcel/plugin': 2.5.0_@parcel+core@2.5.0
-      '@parcel/source-map': 2.0.2
+      '@parcel/source-map': 2.0.3
       '@parcel/ts-utils': 2.5.0_typescript@4.6.4
       nullthrows: 1.1.1
       typescript: 4.6.4
@@ -868,7 +868,7 @@ packages:
       '@parcel/diagnostic': 2.5.0
       '@parcel/fs': 2.5.0_@parcel+core@2.5.0
       '@parcel/package-manager': 2.5.0_@parcel+core@2.5.0
-      '@parcel/source-map': 2.0.2
+      '@parcel/source-map': 2.0.3
       '@parcel/workers': 2.5.0_@parcel+core@2.5.0
       utility-types: 3.10.0
     transitivePeerDependencies:
@@ -884,7 +884,7 @@ packages:
       '@parcel/hash': 2.5.0
       '@parcel/logger': 2.5.0
       '@parcel/markdown-ansi': 2.5.0
-      '@parcel/source-map': 2.0.2
+      '@parcel/source-map': 2.0.3
       chalk: 4.1.2
     dev: true
 
