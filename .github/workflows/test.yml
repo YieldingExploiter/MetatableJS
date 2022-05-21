@@ -27,5 +27,7 @@ jobs:
         run: npm i
       - name: Build
         run: npm run build
-      - name: Run
+      - name: Run Main Test
         run: npm run test
+      - name: Run Readme Example
+        run: node .github/ReadmeExample.js
