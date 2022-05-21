@@ -26,4 +26,9 @@ MetaTabledTable.someProp = 'someOtherValue'; // works, since someProp exists on 
 console.log(MetaTabledTable.someProp); // => 'someOtherValue'
 //
 console.log(MetaTabledTable.someOtherProp); // => 'someOtherValue'
-MetaTabledTable.someOtherProp = 'someValue'; // Error: Cannot index this meta┬─┬d ┬─┬
+let x = false;
+try {
+  MetaTabledTable.someOtherProp = 'someValue'; // Error: Cannot index this meta┬─┬d ┬─┬
+  x = true
+} catch (error) {}
+if (x) throw new Error('didnt throw the metatabled table')
