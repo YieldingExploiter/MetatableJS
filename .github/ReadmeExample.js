@@ -6,7 +6,7 @@ const SomeOtherTable = {
   someOtherProp: 'someOtherValue',
 };
 const MetaTabledTable = setmetatable(SomeTable, {
-  __index: someOtherTable,
+  __index: SomeOtherTable,
   __newindex: () => {
     throw new Error('Cannot index this meta┬─┬d ┬─┬');
   },
