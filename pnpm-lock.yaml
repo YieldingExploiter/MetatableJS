@@ -1195,7 +1195,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001342
-      electron-to-chromium: 1.4.137
+      electron-to-chromium: 1.4.138
       escalade: 3.1.1
       node-releases: 2.0.5
       picocolors: 1.0.0
@@ -1397,8 +1397,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /electron-to-chromium/1.4.137:
-    resolution: {integrity: sha512-0Rcpald12O11BUogJagX3HsCN3FE83DSqWjgXoHo5a72KUKMSfI39XBgJpgNNxS9fuGzytaFjE06kZkiVFy2qA==}
+  /electron-to-chromium/1.4.138:
+    resolution: {integrity: sha512-IOyp2Seq3w4QLln+yZWcMF3VXhhduz4bwg9gfI+CnP5TkzwNXQ8FCZuwwPsnes73AfWdf5J2n2OXdUwDUspDPQ==}
     dev: true
 
   /entities/2.2.0:
@@ -1875,7 +1875,7 @@ packages:
     requiresBuild: true
     dependencies:
       msgpackr: 1.6.1
-      nan: 2.15.0
+      nan: 2.16.0
       node-addon-api: 4.3.0
       node-gyp-build-optional-packages: 4.3.2
       ordered-binary: 1.2.5
@@ -1952,8 +1952,8 @@ packages:
       msgpackr-extract: 2.0.2
     dev: true
 
-  /nan/2.15.0:
-    resolution: {integrity: sha512-8ZtvEnA2c5aYCZYd1cvgdnU6cqwixRoYg70xPLWUws5ORTa/lnw+u4amixRS/Ac5U5mQVgp9pnlSUnbNWFaWZQ==}
+  /nan/2.16.0:
+    resolution: {integrity: sha512-UdAqHyFngu7TfQKsCBgAA6pWDkT8MAO7d0jyOecVhN5354xbLqdn8mV9Tat9gepAupm0bt2DbeaSC8vS52MuFA==}
     dev: true
 
   /natural-compare/1.4.0:
