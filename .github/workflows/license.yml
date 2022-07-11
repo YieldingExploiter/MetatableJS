@@ -16,6 +16,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Node.js environment
-        uses: actions/setup-node@v3.3.0
+        uses: actions/setup-node@v3.4.0
       - name: Check Licenses
         uses: YieldingExploiter/License-Action@1.0.1
