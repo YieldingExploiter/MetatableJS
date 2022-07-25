@@ -37,7 +37,7 @@
     }
   },
   "engines": {
-    "node": ">=v12.22.12"
+    "node": ">=v16.16.0"
   },
   "engineStrict": true
 }
